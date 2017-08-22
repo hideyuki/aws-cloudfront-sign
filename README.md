@@ -55,8 +55,8 @@ npm install aws-cloudfront-sign
   for your signed URL. This value must be given in standard IPv4 CIDR format
   (for example, 10.52.176.0/24).
 * `keypairId` - The access key ID from your Cloudfront keypair
-* `privateKeyString` || `privateKeyPath` - The private key from your Cloudfront
-   keypair. It can be provided as either a string or a path to the .pem file.
+* `privateKeyString` - The private key from your Cloudfront
+   keypair.
   **Note:** When providing the private key as a string, ensure that the newline
   character is also included.
 
